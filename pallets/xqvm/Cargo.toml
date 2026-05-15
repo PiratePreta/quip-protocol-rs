@@ -24,7 +24,7 @@ scale-info = { features = ["derive"], workspace = true }
 sp-runtime.workspace = true
 
 # XQVM crates (no_std compatible)
-xqvm = { git = "https://github.com/PiratePreta/xq-rs.git", default-features = false }
+xqvm = { git = "https://github.com/PiratePreta/xq-rs.git", branch = "main", default-features = false }
 
 [dev-dependencies]
 sp-core = { default-features = true, workspace = true }
